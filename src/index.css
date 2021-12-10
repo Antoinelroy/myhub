@@ -24,6 +24,25 @@ body {
   color: black;
 }
 
+@media screen and (max-width: 992px) {
+  div.col {
+    margin: 1em;
+  }
+  div.card-body{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c7c7c7;
+    color: black;
+  }
+}
+
 .users {
   display: flex;
   flex-direction: column;
@@ -53,6 +72,13 @@ body {
   animation-name: slidein;
 }
 
+@media screen and (max-width: 504px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+
 @keyframes slidein {
   from {
     margin-top: -30em;
@@ -79,14 +105,6 @@ body {
 
 .welcome {
   margin: 1.5em 0;
-}
-
-.recentPosts {
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 2em 2em 5em 2em;
-  background-color: #212529;
-  margin-bottom: 2em;
 }
 
 #recentPosts {
