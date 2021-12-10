@@ -14,6 +14,7 @@ const Users = () => {
         }
         fetchUsers();
     }, [])
+
     return (
         <div className='container'>
                 <div className="row row-cols-2 row-cols-md-5 g-2">

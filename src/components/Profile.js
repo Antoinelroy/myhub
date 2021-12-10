@@ -14,9 +14,6 @@ const Profile = ({ user }) => {
     } else{
         isUserLoggedIn = true;
     }
-    console.log(isUserLoggedIn);
-    console.log(location.state);
-    console.log(user);
 
     useEffect(() => {
         const fetchPosts = async () => {
