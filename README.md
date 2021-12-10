@@ -12,7 +12,7 @@ The project is also available here:
 
 https://codesandbox.io/s/myhub-vcr72
 
-This was a good learning experience for me. I did not have a lot of experience with custom hooks and you'll see that there is a couple of them in the project. It took me three days to finish because I wanted to take the time I needed in order to make the application as beautiful and as responsive as I could. I do know I am not a UI/UX designer though :P
+This was a good learning experience for me. I did not have a lot of experience with custom hooks and you'll see that there is a couple of them in the project. It took me three days to finish because I wanted to take the time I needed in order to make the application as beautiful and as responsive as I could. I do know I am not a UI/UX designer though hehe
 
 Thanks for checking it out and feel free to give me any tips on how my code/app could be improved!
 
