@@ -10,7 +10,7 @@ or
 
 The project is also available here:
 
-###https://codesandbox.io/s/myhub-vcr72
+https://codesandbox.io/s/myhub-vcr72
 
 Here is a list of available usernames to log in:
 
