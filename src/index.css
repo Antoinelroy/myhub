@@ -1,13 +1,144 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #3b3b3b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.thumbnails {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.body {
+  margin: 0 1em;
+}
+
+.navbar {
+  padding: 1.5em 0;
+  margin-bottom: 1em;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c7c7c7;
+  color: black;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c7c7c7;
+  color: black;
+  margin: 1em;
+  width: 40%;
+}
+
+.users:hover{
+  background-color: #a8a8a8;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212529;
+  color: white;
+  height: 50%;
+  width: 500px;
+  margin: 10em auto;
+  padding: 3em;
+  border-radius: 15px;
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: -30em;
+  }
+
+  to {
+    margin-top: 10em;
+
+  }
+}
+
+#btnLogin {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#txtUsername {
+  margin-top: 10px;
+}
+
+.profile {
+  color: white;
+}
+
+.welcome {
+  margin: 1.5em 0;
+}
+
+.recentPosts {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2em 2em 5em 2em;
+  background-color: #212529;
+  margin-bottom: 2em;
+}
+
+#recentPosts {
+  margin-top: -30px;
+  margin-left: -2em;
+  padding: 1em 2em;
+  width: 110%
+}
+
+.recentAlbums {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2em 2em 5em 2em;
+  background-color: #212529;
+  margin-bottom: 2em;
+}
+
+#recentAlbums {
+  margin-top: -30px;
+  margin-left: -2em;
+  padding: 1em 2em;
+  width: 110%
+}
+
+#btnSeeMorePosts{
+  margin-top: 1.5em;
+}
+
+#btnSeeMoreAlbums{
+  margin-top: 1.5em;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c7c7c7;
+  color: black;
+}
+
+.album:hover {
+  background-color: #a8a8a8;
+}
+
+.album-title {
+  color: white;
+  display: table;
+  margin: 2em auto;
+}
+
+.author {
+  display: inline;
+  color: blue;
+  margin-bottom: 5px;
 }
